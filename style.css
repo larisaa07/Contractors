@@ -37,8 +37,6 @@ body{
 
 /*1*/
 #imgOne {
-    height: 400px;
-    width: clamp(600px, 65vw, 900px);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center center;
@@ -46,33 +44,9 @@ body{
 }
 
 .textOne {
-    height: clamp(100px, 30vw, 200px);
-    width: clamp(350px, 45vw, 500px);
     background:#DC8126;
     color: black;
     z-index: 2;
-    margin: -100px;
     box-shadow: black 0px 2px 4px 0px, rgb(64, 64, 64) 0px 2px 16px 0px;
 }
 
-/*2*/
-#imgTwo {
-    height: 400px;
-    width: clamp(600px, 65vw, 900px);
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center center;
-    z-index: -1;
-    margin-top:200px;
-}
-
-.textTwo {
-    height: clamp(100px, 30vw, 200px);
-    width: clamp(350px, 45vw, 500px);
-    background:#DC8126;
-    color: black;
-    z-index: 2;
-    margin: -100px;
-    box-shadow: black 0px 2px 4px 0px, rgb(64, 64, 64) 0px 2px 16px 0px;
-    margin-bottom:200px;
-}
