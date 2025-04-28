@@ -34,30 +34,43 @@
 
             <!--navbar area-->
             <div class="row" id="nav">
-                <!--logo-->
-                <div class="col-6">
-                    <img src="imgs/A Plus Logo.avif" alt="company logo" id="miniLogo">
-                </div>
-                <div class="col">
-                    <!--navbar-->
-                </div>
+                <nav class="navbar navbar-expand-lg">
+                    <div class="container-fluid">
+                        <img src="imgs/A Plus Logo.avif" id="miniLogo" alt="company logo">
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                            <span class="navbar-toggler-icon"></span>
+                        </button>
+                        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+                            <div class="navbar-nav">
+                                <a class="nav-link active" aria-current="page" href="#">Home</a>
+                                <a class="nav-link" href="services.html">Services</a>
+                                <a class="nav-link" href="#">Gallery</a>
+                                <a class="nav-link" href="#">Testimonials</a>
+                                <a class="nav-link" href="#">Contact Us</a>
+                            </div>
+                        </div>
+                    </div>
+                </nav>
             </div>
             <!--navbar area end-->
+
+            <div class="intro row">
+                <h1>Have a look at some of our past works...</h1>
+            </div>
 
             <!--info cards-->
             <div class="container mt-5">
                 
                 <!-- card1 -->
                 <div class="row info-row d-flex justify-content-center align-items-center">
-                    <div class="col-12 lg-6">
-                        <div class="row"></div>
+                    <div class="col-6">
+                        <div class="row">
                             <img src="imgs/newHome1.avif" alt="exterior photo of home" id="imgOne">
                         </div>
                         <div class="row">
                             <div class="textOne container">
                                 <h1>Custom New Homes</h1>
-                                <a>info ab it</a>
-                                <button class="btn" onclick=""window.location.href =  'services.html';">Moew info</button>"
+                                <button class="btn" onclick="services.html"window.location.href =  'services.html';>More info</button>
                             </div>
                         </div>
                     </div>
@@ -66,21 +79,35 @@
 
                 <!--2-->
                 <div class="row info-row d-flex justify-content-center align-items-center">
-                    <div class="col-12 lg-6">
-                        <div class="row"></div>
-                            <img src="imgs/newHome1.avif" alt="exterior photo of home" id="imgOne">
+                    <div class="col-6">
+                        <div class="row">
+                            <img src="imgs/newHome1.avif" alt="exterior photo of home" id="imgTwo">
                         </div>
                         <div class="row">
-                            <div class="textOne container">
-                                <h1>Custom New Homes</h1>
-                                <a>info ab it</a>
-                                <button class="btn" onclick=""window.location.href =  'services.html';">Moew info</button>"
+                            <div class="textTwo container">
+                                <h1>Interior Trimming & Kitchen Cabinets</h1>
+                                <button class="btn" onclick="services.html"window.location.href =  'services.html';>More info</button>
                             </div>
                         </div>
                     </div>
                 </div>
                 <!--end2-->
 
+                <!-- card3 -->
+                <div class="row info-row d-flex justify-content-center align-items-center">
+                    <div class="col-6">
+                        <div class="row">
+                            <img src="imgs/newHome1.avif" alt="exterior photo of home" id="imgThree">
+                        </div>
+                        <div class="row">
+                            <div class="textThree container">
+                                <h1>Stairs & Flooring</h1>
+                                <button class="btn" onclick="services.html"window.location.href =  'services.html';>More info</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!--end3-->
                 
             </div>
 
