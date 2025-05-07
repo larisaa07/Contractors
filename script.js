@@ -68,7 +68,7 @@ const teamMembers = [
     name: 'Zeus',
     comment: 'what they said'
   }
-]
+];
 
 function generateTeamCards(){
   const teamCardsContainer = document.getElementById('teamCards');
@@ -77,20 +77,12 @@ function generateTeamCards(){
       const card = document.createElement('div')
       card.classList.add('col-md-4')
 
-       //Create a list of titleDomain with <li> tags
-  const titleDomainList = member.titleDomain
-  .map(titleDomain => `<li> ${titleDomain} </li>`).join('')
-
-      //Create a list of symbols with <li> tags
-  const symbolsList = member.symbols
-  .map(symbols => `<li> ${symbols} </li>`).join('')
-
       card.innerHTML=`
           <div class="card">
-              <div   class = "card-header">
+              <div class = "card-header">
                   ${member.name}
               </div>
-              <div class="card-body" style = "background-color:${backgroundColor};">
+              <div class="card-body">
                   <p><strong>Comments:</strong> ${member.comment}</p>
               </div>
           </div>
@@ -102,3 +94,13 @@ function generateTeamCards(){
 }
 
 window.onload = generateTeamCards()
+
+
+
+//contact age
+document.querySelector('#contact-form').addEventListener('submit', (e) => {
+  e.preventDefault();
+  e.target.elements.name.value = '';
+  e.target.elements.email.value = '';
+  e.target.elements.message.value = '';
+});
