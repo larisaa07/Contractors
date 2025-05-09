@@ -402,6 +402,38 @@ body { margin: 0; }
 }
 
 /*testimonial page*/
+.findOut{
+  margin-top:50px;
+}
+
+.allBtns{
+  margin-top:50px;
+  width:60%;
+  align-items:center;
+  justify-content:center;
+}
+
+.testNum{
+  box-shadow: #3b3b3b 0px 2px 4px 0px, rgb(64, 64, 64) 0px 2px 16px 0px;
+}
+
+.testNum:hover{
+  box-shadow: #C6721F 0px 2px 4px 0px, rgb(64, 64, 64) 0px 2px 16px 0px;
+  background-color:#C6721F;
+}
+
+.testNum:active{
+  box-shadow:none;
+}
+
+.testsDiv{
+  background-color:#DC8126;
+  width: 50%;
+  margin-top:100px;
+  border-radius:5px;
+  padding:10px;
+}
+
 
 /*contact page*/
 #contact {

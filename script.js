@@ -18,83 +18,36 @@ const vue_app = Vue.createApp({
   
   vue_app.mount("#vue_app");
 
-//testimonial page
-const teamMembers = [
-  {
-      name: 'Zeus',
-      comment: 'what they said'
-  },
-  {
-      name: 'Zeus',
-      comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  },
-  {
-    name: 'Zeus',
-    comment: 'what they said'
-  }
-];
-
-function generateTeamCards(){
-  const teamCardsContainer = document.getElementById('teamCards');
-
-  teamMembers.forEach(member => {
-      const card = document.createElement('div')
-      card.classList.add('col-md-4')
-
-      card.innerHTML=`
-          <div class="card">
-              <div class = "card-header">
-                  ${member.name}
-              </div>
-              <div class="card-body">
-                  <p><strong>Comments:</strong> ${member.comment}</p>
-              </div>
-          </div>
-      `
-
-          
-  teamCardsContainer.appendChild(card)
-  });
+//testimonials page
+//function to change text to Testimonial 1
+function testOne(){
+    document.getElementById('date').innerText= 'Testimonial 1'
 }
 
-window.onload = generateTeamCards()
+//function to change text to Testimonial 2
+function testTwo(){
+    document.getElementById('date').innerText= 'Testimonial 2'
+}
 
+//function to change text to Testimonial 3
+function testThree(){
+    document.getElementById('date').innerText= 'Testimonial 3'
+}
+
+//function to change text to Testimonial 4
+function testFour(){
+    document.getElementById('date').innerText= 'Testimonial 4'
+}
+
+//function to change text to Testimonial 5
+function testFive(){
+    document.getElementById('date').innerText= 'Testimonial 5'
+}
+
+//function to change text to Testimonial 6
+function testSix(){
+    document.getElementById('date').innerText= 'Testimonial 6'
+}
 
 
 //contact age
