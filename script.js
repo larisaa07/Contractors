@@ -21,32 +21,32 @@ const vue_app = Vue.createApp({
 //testimonials page
 //function to change text to Testimonial 1
 function testOne(){
-    document.getElementById('date').innerText= 'Testimonial 1'
+    document.getElementById('date').innerText= '<span class="big-quote">“</span>' + 'Testimonial 1' + '<span class="big-quote">“</span>'
 }
 
 //function to change text to Testimonial 2
 function testTwo(){
-    document.getElementById('date').innerText= 'Testimonial 2'
+    document.getElementById('date').innerText= '"' + 'Testimonial 2' + '"'
 }
 
 //function to change text to Testimonial 3
 function testThree(){
-    document.getElementById('date').innerText= 'Testimonial 3'
+    document.getElementById('date').innerText= '"' + 'Testimonial 3' + '"'
 }
 
 //function to change text to Testimonial 4
 function testFour(){
-    document.getElementById('date').innerText= 'Testimonial 4'
+    document.getElementById('date').innerText= '"' + 'Testimonial 4' + '"'
 }
 
 //function to change text to Testimonial 5
 function testFive(){
-    document.getElementById('date').innerText= 'Testimonial 5'
+    document.getElementById('date').innerText= '"' + 'Testimonial 5' + '"'
 }
 
 //function to change text to Testimonial 6
 function testSix(){
-    document.getElementById('date').innerText= 'Testimonial 6'
+    document.getElementById('date').innerText= '"' + 'Testimonial 6' + '"'
 }
 
 
