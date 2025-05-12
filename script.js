@@ -21,7 +21,7 @@ const vue_app = Vue.createApp({
 //testimonials page
 //function to change text to Testimonial 1
 function testOne(){
-    document.getElementById('date').innerText= '<span class="big-quote">“</span>' + 'Testimonial 1' + '<span class="big-quote">“</span>'
+    document.getElementById('date').innerText= '"' + 'Testimonial 1' + '"'
 }
 
 //function to change text to Testimonial 2
