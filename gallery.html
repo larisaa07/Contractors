@@ -49,7 +49,34 @@
                 <h1>Gallery</h1>
             </div>
 
-            
+            <div id="vue_app" class="container img-fluid">
+    <div class="row justify-content-center">
+      <!-- Loop through images -->
+      <div
+        class="col-sm-5 col-md-4 mt-5 text-center ms-3 me-3"
+        v-for="(image, index) in images"
+        :key="image.id"
+      >
+        <div class="card1">
+          <div class="card1-inner">
+            <div class="card1-front">
+              <!-- Make the image responsive and fit inside the div -->
+              <img :src="image.image_url" :alt="image.project" class="img-fluid  card-img">
+            </div>
+            <div class="card1-back">
+              
+              <ul class="nextLine">
+                <li><p>{{ image.project }}</p></li>
+                <li><p>Grade: {{ image.grade }}</p></li>
+                <li><p>By: {{ image.studentName }}</p></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
 
             
 
